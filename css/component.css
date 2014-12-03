@@ -83,6 +83,10 @@ p {
 	display: none;
 }
 
+p.intro {
+	display: block;
+}
+
 h2:hover {
 	color: lightgray;
 }
@@ -99,6 +103,10 @@ h2:after {
   z-index: 1;
   margin-top: 10px;
   margin-left: -3px;
+}
+
+h2:hover:after {
+	border-top: 15px solid lightgray;
 }
 
 h2.no-after:after{display:none;}

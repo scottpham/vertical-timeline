@@ -1,8 +1,7 @@
 $(document).ready(function(){
-	$("p").slideUp();
+	//$("p").not(".intro").slideUp();
 	//if the h2 element is clicked
 	$("h2").click(function(){
-		console.log("Event fired");
 		
 		var graf = $(this).next();
 
@@ -10,7 +9,7 @@ $(document).ready(function(){
 
 		graf.slideToggle("slow");
 
-		$("p").not(graf).slideUp("slow");
+		$("p").not(graf).not(".intro").slideUp("slow");
 
 	});
 
