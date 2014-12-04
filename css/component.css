@@ -22,10 +22,10 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	width: 10px;
+	width: 8px;
 	background: #afdcf8;
 	left: 20%;
-	margin-left: -10px;
+	margin-left: 0px;
 }
 
 /* The date/time */
@@ -152,7 +152,7 @@ h2.no-after:after{display:none;}
 	text-align: center;
 	left: 20%;
 	top: 0;
-	margin: 0 0 0 -13px;
+	margin: 0 0 0 -4px;
 }
 
 
@@ -171,7 +171,7 @@ h2.no-after:after{display:none;}
 
 /*mobile*/
 
-@media screen and (max-width: 401px) {
+@media screen and (max-width: 575px) {
 
 	.cbp_tmtimeline > li .cbp_tmtime span {
 		font-size: 1.0em;
